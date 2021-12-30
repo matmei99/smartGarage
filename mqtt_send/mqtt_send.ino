@@ -1,5 +1,8 @@
 #include <ArduinoMqttClient.h>
-#include <WiFi101.h>
+//For Arduino Uno Wifi Rev2:
+#include <WiFiNINA.h>
+//For Arduino MKR1000:
+//#include <WiFi101.h>
 
 char ssid[] = "SmartGarage";
 char pass[] = "smartgarage";
